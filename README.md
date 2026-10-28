@@ -155,17 +155,25 @@ A Flask application that brings together Python and a lightweight web interface 
 </td>
 <td width="50%" valign="top">
 
-<h3>04 &nbsp; In progress: Customer Revenue Investigation</h3>
 
-**Question:** Why are customers ordering less, and what evidence would help explain the decline?
+<h3>04 &nbsp; Discount Causality Analysis</h3>
 
-An investigation into customer activity, order frequency, and revenue. The analysis is designed to separate observed changes from possible causes and identify what should be tested next.
+**Question:** Do discounts actually increase sales, or do they coincide with days that already have higher demand?
 
-**Planned focus**
-- KPI trends and data quality
-- Customer segment comparisons
-- Hypothesis testing and causal reasoning
-- Evidence-based recommendations
+This project investigates the relationship between discounting and sales in an e-commerce setting. It examines traffic, holidays, and weekends as potential confounders, uses a causal DAG to map the assumed relationships, and applies OLS regression to estimate the discount effect while controlling for those factors.
+
+**What it demonstrates**
+- Exploratory analysis and confounder investigation
+- Causal DAGs and backdoor-path reasoning
+- Regression-based effect estimation
+- Distinguishing correlation from causation
+
+<a href="https://github.com/Miracle-Bassey/discount_causuality_analysis">
+  <img src="https://img.shields.io/badge/OPEN%20PROJECT-855968?style=flat-square" alt="Open Discount Causality Analysis"/>
+</a>
+
+
+
 
 </td>
 </tr>
